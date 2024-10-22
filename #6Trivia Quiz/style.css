@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Londrina Solid Light";
+  src: url("/resources/fonts/LondrinaSolid-Light.ttf");
+}
+
+body {
+  font-family: "Londrina Solid Light";
+  text-align: center;
+  background-color: #7c69dd;
+}
+
+div {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  width: 55%;
+  margin: auto;
+  border-radius: 30px;
+  padding: 2% 5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1 {
+  font-size: 60px;
+  color: #ffffff;
+}
+
+h2 {
+  color: #45bea4;
+  font-size: 36px;
+}
+
+button {
+  font-family: "Londrina Solid Light", sans-serif;
+  font-size: 40px;
+  background-color: #ffc85e;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+  display: block;
+  margin: 40px auto 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ffda91;
+}

@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Didact Gothic";
+  src: url("/resources/fonts/DidactGothic-Regular.ttf");
+}
+
+img {
+  width: 400px;
+}
+
+body {
+  background-color: #577590;
+  color: #f9c74f;
+  text-align: center;
+  font-family: "Didact Gothic";
+}
+
+#header {
+  background-color: #43aa8b;
+  padding: 1% 2%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}

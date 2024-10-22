@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("/resources/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Semibold";
+  src: url("/resources/fonts/Poppins-SemiBold.ttf");
+}
+
+body {
+  background-color: #efefef;
+  text-align: center;
+}
+
+h1 {
+  color: #777586;
+  font-size: 36px;
+  font-family: "Poppins Semibold";
+}
+
+div {
+  width: 50%;
+  background-color: #3953be;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5%;
+  word-wrap: break-word;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+img {
+  width: 35%;
+}
+
+button {
+  font-family: "Poppins";
+  background-color: #29ca5a;
+  color: #ffffff;
+  font-size: 36px;
+  padding: 4% 9%;
+  border-radius: 40px;
+  margin: 9% auto 6%;
+  display: block;
+  border: none;
+  box-shadow: 0px 6px 0px #00932c;
+  transition: all 0.04s linear;
+  position: relative;
+  top: 0;
+}
+
+/* styling for the button when you move your cursor over it */
+button:hover {
+  cursor: pointer;
+  background-color: #77e498;
+  box-shadow: 0px 6px 0px #00932c;
+}

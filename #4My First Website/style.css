@@ -1,0 +1,97 @@
+/* typeface used for the headings */
+@font-face {
+  font-family: "Montserrat";
+  src: url("/resources/fonts/Montserrat-Regular.ttf");
+}
+
+/* typeface used for the <p> elements */
+@font-face {
+  font-family: "Nunito";
+  src: url("/resources/fonts/Nunito-Regular.ttf");
+}
+
+body {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* header at the top */
+#header {
+  height: 50vh;
+  background-image: url("https://www.shutterstock.com/image-photo/office-desk-table-computer-smartphone-260nw-313468463.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+}
+
+/* "About Me" section */
+#about {
+  background-color: #3d84a8;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 7%;
+}
+
+/* "My Hobbies" section */
+#hobbies {
+  background-color: #43a680;
+  padding-top: 3%;
+}
+
+/* invisible <div> element around all the hobby "cards" */
+#cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2em;
+  row-gap: 20px;
+}
+
+/* <div> element for each hobby "card" */
+.card {
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 calc(33% - 0.5em);
+}
+
+img {
+  width: 100%;
+}
+
+/* <div> around the hobby "card" text */
+.card-text-container {
+  padding: 15px 20px;
+}
+
+/* styling for mobile devices */
+@media (max-width: 736px) {
+  #cards-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}

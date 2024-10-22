@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Bungee";
+  src: url("/resources/fonts/Bungee-Regular.ttf");
+}
+
+body {
+  background-color: #8270fa;
+}
+
+h1 {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  color: #f7fafa;
+  font-size: 32px;
+  text-align: center;
+}
+
+#square1 {
+  width: 400px;
+  height: 400px;
+  background-color: #482ff7;
+  margin: 0 auto;
+}
+
+#square2 {
+  width: 300px;
+  height: 300px;
+  background-color: #2d6cdf;
+}
+
+#square3 {
+  width: 200px;
+  height: 200px;
+  background-color: #46c3db;
+}
+
+#square4 {
+  width: 100px;
+  height: 100px;
+  background-color: #f3f169;
+}

@@ -1,0 +1,42 @@
+/* Specify typeface for entire webpage */
+@font-face {
+  font-family: "Rubik";
+  src: url("/resources/fonts/Rubik-Regular.ttf");
+}
+
+body {
+  background-color: #8aabe0;
+  font-family: "Rubik", sans-serif;
+}
+
+div {
+  width: 430px;
+  height: 700px;
+  background-color: #3d6cb9;
+  color: #e5f0ff;
+  text-align: center;
+  margin: 40px auto;
+  padding: 10px 30px 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+img {
+  width: 300px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+p {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 20px;
+}

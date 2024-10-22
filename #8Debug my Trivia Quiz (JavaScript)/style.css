@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Didact Gothic";
+  src: url("/resources/fonts/DidactGothic-Regular.ttf");
+}
+
+body {
+  background-color: #577590;
+  color: #ffffff;
+  font-family: "Didact Gothic";
+  text-align: center;
+  background: #f9c74f;
+}
+
+div {
+  background-color: #577590;
+  width: 50%;
+  height: auto;
+  border-radius: 15px;
+  padding: 3% 5% 6%;
+  margin: 10% auto;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+h1 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+button {
+  font-size: 46px;
+  color: #ffffff;
+  font-family: "Didact Gothic";
+  background-color: #43aa8b;
+  border-radius: 70px;
+  font-weight: 600;
+  border: none;
+  padding: 2% 8%;
+  transition-duration: 0.2s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #4bbf9c;
+}
